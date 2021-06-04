@@ -93,7 +93,46 @@
     cursor: pointer;
   }
 
+  button:focus {
+    outline: rgba(0, 0, 0, 0.767) auto 5px;
+}
+
   .fa-stack{
       align-items: center;}
   
-  
+  /* for styling inside elements */
+  #myDIV {
+        display: inline-block;
+         align-items: center;
+        width: 95%;
+        padding: 50px 15px;
+        text-align: left;
+        /* background-color: lightblue; */
+        margin: 20px;
+  }
+
+  input[type=url] {
+    width: 50%;
+    padding: 6px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  input[type=submit] {
+    width: 10%;
+    padding: 6px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: var(--button);
+    color: white;  
+    border: none;  
+}
+
+textarea{
+	width: 50%;
+	height: 120px;
+	border: 3px solid #cccccc;
+	padding: 5px;
+    font-size: 18px;
+    font-weight: 100;
+    overflow: auto;
+}
