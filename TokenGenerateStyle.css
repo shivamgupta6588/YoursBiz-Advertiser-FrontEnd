@@ -85,12 +85,15 @@
     background-color: var(--button);
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 10px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     margin: 4px 2px;
     cursor: pointer;
   }
+
+  .fa-stack{
+      align-items: center;}
   
   
